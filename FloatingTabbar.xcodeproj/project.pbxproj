@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AC1907AD27B6BFF700B6740F /* FloatingTabbarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1907AC27B6BFF700B6740F /* FloatingTabbarApp.swift */; };
-		AC1907AF27B6BFF700B6740F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1907AE27B6BFF700B6740F /* ContentView.swift */; };
+		AC1907AF27B6BFF700B6740F /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1907AE27B6BFF700B6740F /* TabBarView.swift */; };
 		AC1907B127B6BFF800B6740F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC1907B027B6BFF800B6740F /* Assets.xcassets */; };
 		AC1907B427B6BFF800B6740F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC1907B327B6BFF800B6740F /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		AC1907A927B6BFF700B6740F /* FloatingTabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloatingTabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC1907AC27B6BFF700B6740F /* FloatingTabbarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTabbarApp.swift; sourceTree = "<group>"; };
-		AC1907AE27B6BFF700B6740F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC1907AE27B6BFF700B6740F /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		AC1907B027B6BFF800B6740F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC1907B327B6BFF800B6740F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				AC1907AC27B6BFF700B6740F /* FloatingTabbarApp.swift */,
-				AC1907AE27B6BFF700B6740F /* ContentView.swift */,
+				AC1907AE27B6BFF700B6740F /* TabBarView.swift */,
 				AC1907B027B6BFF800B6740F /* Assets.xcassets */,
 				AC1907B227B6BFF800B6740F /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC1907AF27B6BFF700B6740F /* ContentView.swift in Sources */,
+				AC1907AF27B6BFF700B6740F /* TabBarView.swift in Sources */,
 				AC1907AD27B6BFF700B6740F /* FloatingTabbarApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
